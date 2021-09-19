@@ -1,0 +1,24 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+.news-block {
+  background-color: #add9e6;
+  width: 80vw;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  flex-wrap: wrap;
+  height: 1000px;
+}
+.news-block .news {
+  width: calc(80vw / 3 - 2rem);
+  margin: 0.5rem;
+  background-color: #fff;
+}
+.news-block .news img {
+  width: 100%;
+}
+
+/*# sourceMappingURL=Styles.css.map */
